@@ -1,0 +1,106 @@
+.header, form{
+    display: flex;
+    justify-content: center;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 60px;
+    background: linear-gradient(to left,#85586F ,#11999E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Roboto", sans-serif;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    font-family: "Roboto", sans-serif;
+}
+.add{
+    padding: 20px;
+    background-color: #11999E;
+    border: none;
+    border-radius: 5px;
+    color: #F9F7F7;
+    font-family: "Roboto", sans-serif;
+}
+.delete{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #F9F7F7;
+    background-color: #7b3358;
+    color: #F9F7F7;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: "Roboto", sans-serif;
+}
+.delete:hover, .add:hover{
+    background-color: #c1ad14;
+}
+body{
+    background-image: url(https://cdn.glitch.global/5fcdd1a9-8d09-4243-a751-9f3fc55a9e80/liana.jpg?v=1654308380321);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #e0c4c0;
+}
+
+.toDoAdded{
+    color: #F9F7F7;
+    background: #85586F;
+    list-style-type: none;
+    height: 60px;
+    width: 30%;
+    text-align: center;
+    color: #F9F7F7;
+    font-size: 20px;
+    border-bottom: 1px solid #F9F7F7;
+    margin-left: 60px;
+    font-family: "Roboto", sans-serif;
+}
+.toDoAdded{
+    display: block;  
+    padding: 30px 10px 5px 10px; 
+    height:50px;
+}
+.toDoContainer{
+    margin-top: 60px;
+}
+.toDoComplited{
+    background: #97C4B8;
+    color: #2C3333;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 3s ease;
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 500px){
+    h1{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    
+    .toDoAdded{
+        display: block;  
+        padding: 15px 5px 5px 10px; 
+        height:30px;
+        margin-left: 0;
+        font-size: 10px;
+    }
+}

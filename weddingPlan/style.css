@@ -1,0 +1,102 @@
+.headerContainer{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 98vh;
+}
+
+.header, .container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    background: linear-gradient(to left, #4e4e22, #de9173);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.inputField{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    color: #de9173;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.add{
+    padding: 20px;
+    border: none;
+    background-color: #de9173;
+    color: #4e4e22;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.delete{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ddc6a3;
+    color: #4e4e22;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #f6ede7;
+}
+.toDoAdded{
+    background-color: #f6ede7;
+    list-style-type: none;
+    height: 60px;
+    width: 40%;
+    text-align: center;
+    color: #de9173;
+    font-size: 20px;
+    border-bottom: 1px solid #4e4e22;
+    font-family: 'Edu TAS Beginner', cursive;
+    display: block;  
+    padding: 15px 5px 5px 5px; 
+    height:40px;
+    margin: 2px;
+}
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.toDoComplited{
+    background-color: #8bc885;
+    color: #000000;
+    text-decoration: line-through;
+    transition: all 3s ease;
+    font-weight: bold;
+}
+@media all and (max-width: 800px) {
+    h1{
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    .add{
+        padding: 10px;
+    }
+    .inputField, .add{
+        margin-top: 30px;
+    }
+    .toDoAdded{
+        display: block;  
+        padding: 15px 5px 5px 5px; 
+        height:30px;
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+}
+@media all and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+    }
+    .add{
+        padding: 10px;
+    }
+}

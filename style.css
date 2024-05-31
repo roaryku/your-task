@@ -1,0 +1,37 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  h1{
+    color: #F9F7F7;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  button{
+    margin: 30px;
+    padding: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media all and (max-width: 500px){
+    h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+}
