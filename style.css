@@ -35,7 +35,7 @@ video {
         margin-top: 50px;
     }
     button{
-        margin: 10px;
+        padding: 10px;
         border-radius: none;
   }
 }
