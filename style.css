@@ -23,7 +23,7 @@ video {
   button{
       -webkit-margin: 30px;
     -webkit-border: none;
-    margin: 30px;
+/*     margin: 30px; */
     padding: 20px;
   }
   a{
