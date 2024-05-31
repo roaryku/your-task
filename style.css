@@ -21,8 +21,8 @@ video {
     flex-wrap: wrap;
   }
   button{
-      margin: 30px;
-      padding: 20px;
+    margin: 30px;
+    padding: 20px;
   }
   a{
     text-decoration: none;
